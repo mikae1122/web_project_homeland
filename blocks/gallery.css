@@ -1,0 +1,35 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1184px;
+  margin-top: 118px;
+}
+.gallery__image {
+  width: 100%;
+  height: 100%;
+  max-width: 284px;
+  max-height: 213px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery__image {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    margin-top: 90px;
+  }
+  .gallery__image {
+    width: 100%;
+    width: 100%;
+  }
+}
