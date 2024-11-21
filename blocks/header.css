@@ -1,0 +1,21 @@
+.header {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.header__footer {
+  max-width: 254px;
+  margin-top: 34px;
+}
+@media screen and (max-width: 1024px) {
+  .header__footer {
+    max-width: 254px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 544px) {
+  .header__footer {
+    max-width: 188px;
+    margin-top: 20px;
+  }
+}
