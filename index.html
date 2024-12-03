@@ -1,52 +1,269 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patria a patria</title>
+    <meta name="description" content="Galeria" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Fernanda Ruíz" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <meta name="author" content="Mikael Ribeiro" />
-    <meta name="description" content="Uma pagina feita para viajar" />
-    <meta name="keywords" content="sites, web,Homeland,lugares-pelo-mundo." />
-    <title>De Pátria para Pátria</title>
+    <link rel="icon" href="./favicon.ico" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.png" alt="logo" class="header__footer" />
+        <div class="header__content">
+          <nav class="nav">
+            <img
+              src="./images/logo.svg"
+              alt="Logotipo de galeria patria"
+              class="nav__logo"
+            />
+          </nav>
+        </div>
       </header>
+
       <main class="content">
-        <section class="lead">
-          <h1 class="lead__title">De Pátria para Pátria</h1>
-          <h2 class="lead__subtitle">
-            Uma jornada épica do Kentucky ao Burundi pelo País de Gales e
-            Ucrânia
-          </h2>
-          <img src="./images/__image.jpg" alt="senario" class="lead__image" />
+        <section class="lead" id="lead">
+          <h1 class="lead__title">De patria a patria</h1>
+          <p class="lead__subtitle">
+            Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
+          </p>
+          <div class="lead__image">
+            <img src="./images/__image.jpg" alt="Imagen de paisaje" />
+          </div>
         </section>
-        <section class="info">
-          <h3 class="info__title">
-            Conheça um pouco mais sobre a localização dos seus amigos
-          </h3>
-          <p class="info__text">
-            Cada pessoa é um artista livre, chamado a transformar as condições,
-            pensamentos e estruturas que moldam nossas vidas.
+
+        <section class="intro" id="intro">
+          <h2 class="intro__title">
+            Conoce un poco mejor los lugares de los que proceden tus colegas en
+            línea
+          </h2>
+          <blockquote class="intro__quote">
+            Todo ser humano es un artista, un ser de la libertad, llamado a
+            participar en la transformación y reforma de las condiciones, el
+            pensamiento y las estructuras que conforman e influyen en nuestras
+            vidas.
+            <p class="intro__quote intro__quote-author">— Joseph Beuys</p>
+          </blockquote>
+          <p class="intro__paragraph">
+            La ciudad de TripleTen ha reunido a profesionales de diferentes
+            rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
+            de presentar historias y fotografías de algunas de las personas que
+            dedican su tiempo y esfuerzo a hacer que los futuros profesionales
+            de la tecnología de esta ciudad se sientan como en casa. Cada uno de
+            nosotros tiene una historia única sobre el lugar del que procede. No
+            dudes en añadir a nuestra colección tu propia historia y una obra de
+            arte visual dedicada a tu ciudad natal. No importa de dónde seas,
+            nos alegra que seas nuestro vecino.
           </p>
-          <p class="info__text-name">— Joseph Beuys</p>
-          <p class="info__text-paragraph">
-            A cidade de TripleTen reuniu profissionais de diversos cantos do
-            mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar
-            histórias e fotos de algumas das pessoas que dedicam seu tempo e
-            esforço para fazer com que os futuros profissionais de tecnologia
-            desta cidade se sintam em casa. Cada um de nós tem uma história
-            única sobre o lugar de onde viemos. Sinta-se à vontade para
-            adicionar sua própria história e uma obra de arte visual dedicada à
-            sua cidade natal à nossa coleção. Não importa de onde você é,
-            estamos felizes por você ser nosso vizinho.
-          </p>
+        </section>
+
+        <section class="photo-grid">
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-1.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-2.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-3.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-4.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-5.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-6.png"
+          />
+
+          <img
+            class="photo-grid__item"
+            alt="image grid item"
+            src="./images/__item-7.png"
+          />
+        </section>
+
+        <section class="places">
+          <div class="place">
+            <h2 class="place__title">Cricieth, Gales</h2>
+            <div class="place__subtitle">
+              <a href="#" class="place__url-heading">Artistas</a>
+              <p class="place__artist">
+                Steffan Warren, editor jefe Kseniya Glagoleva, gerente de
+                proyectos
+              </p>
+            </div>
+            <img
+              class="place__image"
+              src="./images/__place_one.png"
+              alt="place__image"
+            />
+            <div class="place__text">
+              <p class="place__text place__text-paragraph">
+                Las ruinas medievales del castillo de Cricieth dominan la ciudad
+                desde una roca que extiende sobre el mar. Se cree que fue
+                construido por Llewelyn el Grande en el S. XIII. 800 años
+                después, la autodenominada *Perla de Gales en las costas de
+                Snowdonia*, se ha convertido en un popular destino turístico
+                durante los meses de verano.
+              </p>
+              <p class="place__text place__text-paragraph">
+                A pocos pasos de camino al castillo, puedes disfrutar de los
+                mejores helados del mundo en Cadwalader's, cuyo ingrediente
+                secreto se rumorea que son algas marinas de la localidad. Otra
+                cosa por la que es famosa Cricieth es por haber ganado el premio
+                *Gales en flor* durante cinco años seguidos por sus
+                espectaculares muestras florales alrededor de la ciudad. También
+                vio nacer a David Lloyd George, el único galés que ha sido
+                Primer Ministro del Reino Unido.
+              </p>
+            </div>
+            <button class="place__button">Compra esta obra como NFT</button>
+          </div>
+
+          <div class="place">
+            <h2 class="place__title">Berea, EE. UU.</h2>
+            <div class="place__subtitle">
+              <a href="#" class="place__url-heading">Artistas</a>
+              <p class="place__artist">Travis Turner, autor y editor</p>
+            </div>
+            <img
+              class="place__image"
+              src="./images/__place_two.png"
+              alt="place__image"
+            />
+            <div class="place__text">
+              <p class="place__text place__text-paragraph">
+                Berea es una pequeña ciudad ubicada en la parte central de
+                Kentucky. La ciudad está rodeada por hermosos bosques y campos.
+                Es conocida como la capital de la artesanía del estado, y sus
+                visitantes hallarán infinitas posibilidades para ir de compras:
+                tiendas de joyas, velas y artículos de madera artesanales
+                galerías, talleres de vidrio y más. La ciudad celebra un
+                festival anual que rinde tributo al "spoonbread", un platillo
+                local hecho de pan de maíz y que se sirve con una cuchara de
+                madera.
+              </p>
+              <p class="place__text place__text-paragraph">
+                Aunque, probablemente es mejor conocida por su universidad. El
+                Berea College fue fundado en 1855 y fue la primera universidad
+                sureña integrada racialmente, así como la primera en ser
+                coeducacional. Algo que en cierta manera la hace única, es que
+                no cobra colegiatura: cada estudiante recibe una beca del 100%.
+              </p>
+            </div>
+            <button class="place__button">Compra esta obra como NFT</button>
+          </div>
+
+          <div class="place">
+            <h2 class="place__title">Muramvya, Burundi</h2>
+            <div class="place__subtitle">
+              <a href="#" class="place__url-heading">Artistas</a>
+              <p class="place__artist">Grevisse Kenguruka, editor técnico</p>
+            </div>
+            <img
+              class="place__image"
+              src="./images/__place_three.png"
+              alt="place__image"
+            />
+            <div class="place__text">
+              <p class="place__text place__text-paragraph">
+                Muramvya es una de las 18 provincias de Burundi. Durante la
+                época del reino, Muramvya fue su capital y en 2017, gracias a su
+                paisaje cultural y natural, se añadió a la Lista provisional de
+                patrimonio mundial de la UNESCO. Se encuentra ubicada en el
+                centro de Burundi, entre las capitales política y económica del
+                país.
+              </p>
+              <p class="place__text place__text-paragraph">
+                Su clima es más bien frío durante la noche, pero durante el día,
+                podrías pensar que estás en el paraíso. A sus 2,665 metros
+                (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los
+                lugares más fríos de la provincia. Pero es justo esa brisa
+                fresca la que da pie a una de las más grandes plantaciones de té
+                y café del país, y que representa la mayoría de las
+                exportaciones de Burundi.
+              </p>
+              <p class="place__text place__text-paragraph">
+                El Parque nacional de Kibira, una de las mayores reservas de
+                vida silvestre para los simios, ocupa parte de cuatro
+                provincias, incluyendo Muramvya. Este parque nacional se
+                encuentra en las cúspides de las hermosas montañas de la
+                Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660
+                metros. Está lleno de hermosa vegetación, y es una fuente para
+                los diversos ríos y arroyos que proporcionan agua alrededor del
+                país.
+              </p>
+            </div>
+            <button class="place__button">Compra esta obra como NFT</button>
+          </div>
+
+          <div class="place">
+            <h2 class="place__title">Polanco, CDMX</h2>
+            <div class="place__subtitle">
+              <a href="#" class="place__url-heading">Artistas</a>
+              <p class="place__artist">Fernanda Ruíz, desarrollador web</p>
+            </div>
+            <img
+              class="place__image"
+              src="./images/__place_four.png"
+              alt="place__image"
+            />
+            <div class="place__text">
+              <p class="place__text place__text-paragraph">
+                Pertenece a la alcaldía Miguel Hidalgo la que se conforma por 88
+                colonias, Polanco es una de ellas colinda al norte con la
+                avenida Ejercito Nacional que en ese punto limita con las
+                colonias Granada, Nueva Granada o Nuevo Polanco e Irrigación al
+                este se encuentra la avenida General Mariano Escobedo y en su
+                limite la colonia Anzures al sur el Paseo de la Reforma y el
+                Bosque de Chapultepec.
+              </p>
+              <p class="place__text place__text-paragraph">
+                Antes de que Polanco se urbanizara, la hoy avenida Rio San
+                Joaquín era un río caudaloso que se unía al río de los Morales o
+                Polanco que bordeaba el acueducto y la calzada de la Verónica,
+                convirtiéndose en Río del Consulado y llegando al canal de San
+                Lázaro para desembocar en el Lago de Texcoco. Se puede decir que
+                la historia de Polanco comienza en el obelisco que se localiza
+                en Julio Verne y Paseo de la Reforma dedicado a Simón Bolívar
+                construido en 1938.
+              </p>
+            </div>
+            <button class="place__button">Compra esta obra como NFT</button>
+          </div>
         </section>
       </main>
-      <footer class="footer">
-        <p class="footer__name">© 2024. Mikael Ribeiro</p>
+
+      <footer class="footer" id="footer">
+        <p class="footer__copyright">© 2024 - Mikael Ribeiro</p>
       </footer>
     </div>
   </body>
