@@ -1,34 +1,35 @@
 # http://editorconfig.org
 
-# Una propiedad especial que debe ser especificada en la parte superior del archivo fuera de
-# cualquier sección. Establecer a "true" para detener la búsqueda de archivos .editorconfig en el archivo actual
+# Uma propriedade especial que deve ser especificada na parte superior do arquivo,
+# fora de qualquer seção. Defina como "true" para interromper a busca por arquivos
+# .editorconfig no arquivo atual.
 root = true
 
 [*]
-# Estilo de indentación
-# Valores posibles: tabulación, espacio
+# Estilo de indentação
+# Valores possíveis: tab (tabulação), space (espaço)
 indent_style = space
 
-# Tamaño de la indentación en caracteres de un solo espacio
-# Valores posibles: un entero, tabulación
+# Tamanho da indentação em caracteres de um único espaço
+# Valores possíveis: um número inteiro, tab (tabulação)
 indent_size = 2
 
-# Carácter de final de línea
-# Valores posibles: If, crlf, cr
+# Caractere de final de linha
+# Valores possíveis: lf (Line Feed), crlf (Carriage Return and Line Feed), cr (Carriage Return)
 end_of_line = lf
 
-# Codificación de caracteres de archivo
-# Valores posibles: latin1, utf-8, utf-16be, utf-16le
+# Codificação de caracteres do arquivo
+# Valores possíveis: latin1, utf-8, utf-16be, utf-16le
 charset = utf-8
 
-# Indica si se recortan los espacios en blanco al final de las líneas
-# Valores posibles: true, false
+# Indica se os espaços em branco ao final das linhas devem ser removidos
+# Valores possíveis: true (remover), false (não remover)
 trim_trailing_whitespace = true
 
-# Desactivar para Markdown porque los espacios en blanco al final son importantes
+# Desativar para arquivos Markdown, pois espaços em branco ao final das linhas são importantes
 [*.md]
 trim_trailing_whitespace = false
 
-# Indica si el archivo debe finalizar con una nueva línea
-# Valores posibles: true, false
+# Indica se o arquivo deve terminar com uma nova linha
+# Valores possíveis: true (sim), false (não)
 insert_final_newline = true

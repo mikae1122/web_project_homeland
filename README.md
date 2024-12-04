@@ -1,17 +1,60 @@
-# Tripleten web_project_homeland
+# De Pátria a Pátria
 
-## Patria Galería de Arte
+**Autor:** Mikael Ribeiro
 
-* Patria Galería de Arte es un proyecto web que tiene como objetivo exponer obras de arte de diversos artistas. El sitio web está construido utilizando las tecnologías HTML y CSS, y sigue la metodología BEM (Block, Element, Modifier) para una estructura de código más organizada y mantenible.
+---
 
-## Descripción del Proyecto
-* El proyecto “Patria Galería de Arte” es una plataforma virtual donde los artistas pueden mostrar sus creaciones artísticas al público en general. La galería ofrece una experiencia visual atractiva y fácil de navegar para los visitantes interesados en el arte.
+## Descrição
 
-## Funcionalidad
-* Exposición de Obras de Arte: Los artistas pueden cargar sus obras de arte en la galería. Cada obra se presenta en una página individual con detalles como título, descripción, técnica utilizada y autor.
-* Exploración de Obras: Los visitantes pueden explorar las obras de arte mediante categorías (pintura, escultura, fotografía, etc.) o buscar por palabras clave.
-* Información del Artista: Cada artista tiene su propia página de perfil con una breve biografía, enlaces a sus redes sociales y una lista de sus obras expuestas.
+O projeto **"De Pátria a Pátria"** é uma página web que explora histórias, culturas e artes de diferentes cidades ao redor do mundo. O objetivo é criar uma experiência imersiva e informativa, destacando a diversidade cultural e oferecendo uma perspectiva única sobre cada localidade.
 
-## Tecnologías Utilizadas
-* HTML: Se utiliza para estructurar el contenido de las páginas web, incluyendo la creación de las páginas individuales de las obras de arte y los perfiles de los artistas.
-* CSS: Se emplea para aplicar estilos visuales a las páginas, como colores, tipografías, márgenes y espaciados.
+A página é totalmente responsiva, trazendo um design moderno e organizado, ideal para qualquer dispositivo.
+
+---
+
+## Estrutura do Projeto
+
+### 1. **HTML**
+
+O arquivo `index.html` define a estrutura principal da página. Ele contém:
+
+- **Cabeçalho (Header):** Inclui a navegação e o logotipo.
+- **Seções Principais:**
+  - **Introdução:** Título, subtítulo e imagem destacada.
+  - **Galeria de Fotos:** Grade com imagens relacionadas ao tema.
+  - **Detalhes das Cidades:** Informações sobre cidades específicas, incluindo:
+    - Nome da cidade.
+    - Breve descrição histórica e cultural.
+    - Artistas responsáveis.
+    - Imagens representativas.
+    - Botão para adquirir obras de arte como NFTs (simulado).
+- **Rodapé (Footer):** Informações de direitos autorais.
+
+### 2. **CSS**
+
+O arquivo de estilos `index.css` está localizado na pasta `/pages`. Ele garante:
+
+- Layout responsivo e estético.
+- Identidade visual consistente entre as seções.
+
+### 3. **Imagens**
+
+As imagens utilizadas estão armazenadas na pasta `/images`, organizadas por tipo (logotipos, imagens de cidades e da galeria).
+
+---
+
+## Funcionalidades
+
+1. **Exploração de Cidades**:
+
+   - Informações detalhadas sobre lugares como Criccieth (País de Gales), Berea (EUA), Muramvya (Burundi) e Tubarão (Brasil).
+   - Destaque para a cultura local, história e atrações principais.
+
+2. **Galeria Visual**:
+
+   - Uma grade com imagens diversas que complementam o tema principal.
+
+3. **Design Responsivo**:
+   - Compatibilidade com dispositivos móveis, tablets e desktops.
+
+---
