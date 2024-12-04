@@ -39,10 +39,10 @@
 
 /* Tablet */
 @media (min-width: 768px) {
-  .intro{
+  .intro {
     margin-top: 90px;
     margin-bottom: 64px;
-  } 
+  }
   .intro__title {
     font-weight: 900;
     font-size: 45px;
