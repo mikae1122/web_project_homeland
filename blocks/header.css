@@ -1,20 +1,21 @@
 .header {
+  max-width: 100vw;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
-
-.nav img {
-  width: 188px;
+.header__footer {
+  max-width: 254px;
+  margin-top: 34px;
 }
-
-/* Tablet */
-@media (min-width: 768px) {
-  .header {
-    margin-top: 34px;
+@media screen and (max-width: 1024px) {
+  .header__footer {
+    max-width: 254px;
+    margin-top: 30px;
   }
-  .nav img {
-    width: 254px;
+}
+@media (max-width: 544px) {
+  .header__footer {
+    max-width: 188px;
+    margin-top: 20px;
   }
 }

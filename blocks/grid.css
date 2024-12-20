@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+  padding: 0 1rem;
+  justify-items: stretch;
+}
+@media (max-width: 768px) {
+  .grid {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

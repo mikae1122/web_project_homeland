@@ -3,49 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>De Patria a patria</title>
     <link rel="stylesheet" href="./pages/index.css" />
     <meta name="author" content="Mikael Ribeiro" />
     <meta name="description" content="Uma pagina feita para viajar" />
     <meta name="keywords" content="sites, web,Homeland,lugares-pelo-mundo." />
-    <link rel="icon" href="./favicon.ico" />
+    <title>Document</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="header__content">
-          <nav class="nav">
-            <img
-              src="./images/logo.svg"
-              alt="Logotipo de galeria patria"
-              class="nav__logo"
-            />
-          </nav>
-        </div>
+        <img src="./images/logo.png" alt="logo" class="header__footer" />
       </header>
-
-      <main class="content">
-        <section class="lead" id="lead">
-          <h1 class="lead__title">De patria a patria</h1>
-          <p class="lead__subtitle">
+      <main>
+        <div class="lead">
+          <h1 class="lead__title">De Pátria para Pátria</h1>
+          <h2 class="lead__subtitle">
             Uma jornada épica do Kentucky ao Burundi pelo País de Gales e
             Ucrânia
-          </p>
-          <div class="lead__image">
-            <img src="./images/__image.jpg" alt="Imagen de paisagem" />
-          </div>
-        </section>
-
-        <section class="intro" id="intro">
-          <h2 class="intro__title">
-            Conheça um pouco mais sobre a localização dos seus amigos
           </h2>
-          <blockquote class="intro__quote">
+          <img src="./images/__image.jpg" alt="senario" class="lead__image" />
+        </div>
+        <div class="info">
+          <h3 class="info__title">
+            Conheça um pouco mais sobre a localização dos seus amigos
+          </h3>
+          <p class="info__text">
             Cada pessoa é um artista livre, chamado a transformar as condições,
             pensamentos e estruturas que moldam nossas vidas.
-            <p class="intro__quote intro__quote-author">— Joseph Beuys</p>
-          </blockquote>
-          <p class="intro__paragraph">
+          </p>
+          <p class="info__text__name">— Joseph Beuys</p>
+          <p class="info__text__paragraph">
             A cidade de TripleTen reuniu profissionais de diversos cantos do
             mundo. Hoje, a Galeria de Arte TripleTen tem o orgulho de apresentar
             histórias e fotos de algumas das pessoas que dedicam seu tempo e
@@ -56,75 +43,66 @@
             sua cidade natal à nossa coleção. Não importa de onde você é,
             estamos felizes por você ser nosso vizinho.
           </p>
-        </section>
-
-        <section class="photo-grid">
+        </div>
+        <div class="grid">
+          <img class="grid__imagen" src="./images/__item.png" alt="imagem 6" />
           <img
-            class="photo-grid__item"
-            alt="image grid item"
-            src="./images/__item.png"
-          />
-
-          <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-1.png"
+            alt="imagem 1"
           />
-
           <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-2.png"
+            alt="imagem 2"
           />
-
           <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-3.png"
+            alt="imagem 3"
           />
-
           <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-4.png"
+            alt="imagem 4"
           />
-
           <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-5.png"
+            alt="imagem 5"
           />
-
           <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-6.png"
+            alt="imagem 6"
           />
-
           <img
-            class="photo-grid__item"
-            alt="image grid item"
+            class="grid__imagen"
             src="./images/__item-7.png"
+            alt="imagem 7"
           />
-        </section>
-
-        <section class="citys">
-          <div class="city">
-            <h2 class="city__title">Criccieth, País de Gales</h2>
-            <div class="city__subtitle">
-              <a href="#" class="city__url-heading">Artistas</a>
-              <p class="city__artist">
-                Steffan Warren, editor-chefe Kseniya Glagoleva, gerente de
-                projeto
-              </p>
+        </div>
+        <div class="citys">
+          <div class="citys__gales">
+            <div class="citys__title">
+              <h1 class="citys__title--paises">Criccieth, País de Gales</h1>
+              <img
+                src="./images/__city_one.png"
+                alt="de Gales"
+                class="citys__image"
+              />
+              <button class="citys__button">
+                Compre esta obra de arte como NFT
+              </button>
             </div>
-            <img
-              class="city__image"
-              src="./images/__city_one.png"
-              alt="city__image"
-            />
-            <div class="city__text">
-              <p class="city__text city__text-paragraph">
+            <div class="citys__two--party">
+              <a href="#" class="citys__link">Artista</a>
+              <p class="citys__name">Steffan Warren, editor-chefe</p>
+              <p class="citys__name--two">
+                SKseniya Glagoleva, gerente de projeto
+              </p>
+
+              <p class="citys__paragraph">
                 A ruína medieval do Castelo de Cricieth tem vista para a cidade
                 abaixo de uma rocha que se projeta para o mar. Acredita-se que
                 tenha sido construído por Llewelyn, o Grande, no século XIII.
@@ -132,7 +110,7 @@
                 margens de Snowdonia* tornou-se um destino turístico popular
                 durante os meses de verão.
               </p>
-              <p class="city__text city__text-paragraph">
+              <p class="citys__paragraph--two">
                 A uma curta caminhada da estrada do castelo, você pode desfrutar
                 do melhor sorvete do mundo no Cadwalader's, cujo ingrediente
                 secreto, segundo rumores, são algas marinhas de origem local.
@@ -143,24 +121,26 @@
                 primeiro-ministro do Reino Unido.
               </p>
             </div>
-            <button class="city__button">
-              Compre esta obra de arte como NFT
-            </button>
           </div>
-
-          <div class="city">
-            <h2 class="city__title">Berea, EUA</h2>
-            <div class="city__subtitle">
-              <a href="#" class="city__url-heading">Artistas</a>
-              <p class="city__artist">Travis Turner, autor e editor</p>
+        
+        
+          <div class="citys__gales">
+            <div class="citys__title">
+              <h1 class="citys__title--paises">Berea, EUA</h1>
+              <img
+                src="./images/__city_two.png"
+                alt="de Gales"
+                class="citys__image"
+              />
+              <button class="citys__button">
+                Compre esta obra de arte como NFT
+              </button>
             </div>
-            <img
-              class="city__image"
-              src="./images/__city_two.png"
-              alt="city__image"
-            />
-            <div class="city__text">
-              <p class="city__text city__text-paragraph">
+            <div class="citys__two--party">
+              <a href="#" class="citys__link">Artista</a>
+              <p class="citys__name">Travis Turner, autor e editor</p>
+
+              <p class="citys__paragraph">
                 Berea é uma pequena cidade localizada na parte central do
                 Kentucky. A cidade é cercada por belas florestas e campos. É
                 conhecida como a capital do artesanato do estado, e os
@@ -170,7 +150,7 @@
                 anual que celebra o "pão de colher", um prato local feito com
                 pão de milho e servido com uma colher de pau.
               </p>
-              <p class="city__text city__text-paragraph">
+              <p class="citys__paragraph--two">
                 No entanto, provavelmente é mais conhecido pela faculdade local.
                 O Berea College foi fundado em 1855 e foi o primeiro colégio no
                 sul a ser racialmente integrado, bem como o primeiro a ser
@@ -178,31 +158,33 @@
                 aluno recebe uma bolsa de estudos integral.
               </p>
             </div>
-            <button class="city__button">
-              Compre esta obra de arte como NFT
-            </button>
           </div>
-
-          <div class="city">
-            <h2 class="city__title">Muramvya, Burundi</h2>
-            <div class="city__subtitle">
-              <a href="#" class="city__url-heading">Artistas</a>
-              <p class="city__artist">Grevisse Kenguruka, editor técnico</p>
+        
+        
+          <div class="citys__gales">
+            <div class="citys__title">
+              <h1 class="citys__title--paises">Muramvya, Burundi</h1>
+              <img
+                src="./images/__city_three.png"
+                alt="de Gales"
+                class="citys__image"
+              />
+              <button class="citys__button">
+                Compre esta obra de arte como NFT
+              </button>
             </div>
-            <img
-              class="city__image"
-              src="./images/__city_three.png"
-              alt="city__image"
-            />
-            <div class="city__text">
-              <p class="city__text city__text-paragraph">
+            <div class="citys__two--party">
+              <a href="#" class="citys__link">Artista</a>
+              <p class="citys__name">Grevisse Kenguruka, editor técnico</p>
+
+              <p class="citys__paragraph">
                 Muramvya é uma das 18 províncias de Burundi. Na era do reino,
                 Muramvya era a capital real e em 2007, por causa de sua paisagem
                 cultural e natural, foi adicionada à Lista Provisória do
                 Patrimônio Mundial da UNESCO. Está localizada no centro de
                 Burundi, entre as capitais políticas e econômicas do país.
               </p>
-              <p class="city__text city__text-paragraph">
+              <p class="citys__paragraph--two">
                 O clima é bastante frio à noite, mas durante o dia, você
                 pensaria que está no céu. A 2.665 metros (8.743 pés) acima do
                 nível do mar, o Monte Teza é um dos lugares mais frios da
@@ -210,7 +192,7 @@
                 plantações de chá e café do país, que representam a maior parte
                 das exportações do Burundi.
               </p>
-              <p class="city__text city__text-paragraph">
+              <p class="citys__paragraph--tree">
                 O Parque Nacional de Kibira, uma das maiores reservas de vida
                 selvagem para macacos, se sobrepõe a quatro províncias,
                 incluindo Muramvya. Este Parque Nacional encontra-se no ápice
@@ -220,24 +202,27 @@
                 país.
               </p>
             </div>
-            <button class="city__button">
-              Compre esta obra de arte como NFT
-            </button>
           </div>
-
-          <div class="city">
-            <h2 class="city__title">Tubarão, Brasil</h2>
-            <div class="city__subtitle">
-              <a href="#" class="city__url-heading">Artistas</a>
-              <p class="city__artist">Turismo de Tubarão, web</p>
+        
+        
+          <div class="citys__gales">
+            <div class="citys__title">
+              <h1 class="citys__title--paises">Tubarão, Brasil</h1>
+              <img
+                src="./images/minha-cidade.jpg"
+                alt="de Gales"
+                class="citys__image"
+              />
+              <button class="citys__button">
+                Compre esta obra de arte como NFT
+              </button>
             </div>
-            <img
-              class="city__image"
-              src="./images/minha-cidade.jpg"
-              alt="city__image"
-            />
-            <div class="city__text">
-              <p class="city__text city__text-paragraph">
+            <div class="citys__two--party">
+              <a href="#" class="citys__link">Artista</a>
+              <p class="citys__name">Turismo de Tubarão, web</p>
+            
+
+              <p class="citys__paragraph">
                 Localizada no sul de Santa Catarina, Tubarão é conhecida como a
                 Cidade Azul, um apelido que reflete seu espírito acolhedor e sua
                 relação histórica com o rio que atravessa o município, o Rio
@@ -245,7 +230,7 @@
                 cidade é um importante centro regional, combinando
                 desenvolvimento econômico e qualidade de vida.
               </p>
-              <p class="city__text city__text-paragraph">
+              <p class="citys__paragraph--two">
                 Tubarão é conhecida por sua localização estratégica, às margens
                 do Rio Tubarão, e pela proximidade com a capital do estado,
                 Florianópolis. A cidade possui uma boa infraestrutura e oferece
@@ -258,13 +243,13 @@
                 mais calmo.
               </p>
             </div>
-            <button class="city__button">Compra esta obra como NFT</button>
           </div>
-        </section>
+        </div>
+        </div>
       </main>
 
-      <footer class="footer" id="footer">
-        <p class="footer__copyright">© 2024 - Mikael Ribeiro</p>
+      <footer class="footer">
+        <p class="footer__name">© 2024. Mikael Ribeiro</p>
       </footer>
     </div>
   </body>

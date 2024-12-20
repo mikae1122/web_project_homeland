@@ -29,9 +29,13 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.info__text-name {
+.info__text__name {
   max-width: 732px;
+
   margin-top: 10px;
+
+  gap: 0px;
+  opacity: 0px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
@@ -40,7 +44,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.info__text-paragraph {
+.info__text__paragraph {
   max-width: 722px;
   margin-top: 32px;
 
