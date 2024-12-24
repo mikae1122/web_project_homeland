@@ -29,7 +29,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.info__text__name {
+.info__text-name {
   max-width: 732px;
 
   margin-top: 10px;
@@ -83,7 +83,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .info__text__name {
+  .info__text-name {
     max-width: 720px;
     height: 34px;
     margin-top: 0px;
@@ -134,7 +134,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .info__text__name {
+  .info__text-name {
     font-family: Inter;
     font-size: 16px;
     font-size: 24px;
