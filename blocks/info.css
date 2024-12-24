@@ -44,7 +44,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.info__text__paragraph {
+.info__text-paragraph {
   max-width: 722px;
   margin-top: 32px;
 
@@ -95,7 +95,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .info__text__paragraph {
+  .info__text-paragraph {
     margin-top: 32px;
     font-family: Inter;
     font-size: 16px;
@@ -144,7 +144,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .info__text__paragraph {
+  .info__text-paragraph {
     margin-top: 32px;
     font-family: Inter;
     font-size: 16px;

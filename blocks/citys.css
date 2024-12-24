@@ -11,7 +11,7 @@
   width: 50%;
   height: 832px;
 }
-.citys__title--paises {
+.citys__title-paises {
   font-family: Inter;
   font-size: 72px;
   font-weight: 900;
@@ -50,7 +50,7 @@
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
-.citys__two--party {
+.citys__two-party {
   margin-top: 15%;
   margin-left: 5%;
   width: 50%;
@@ -78,7 +78,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.citys__name--two {
+.citys__name-two {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -96,7 +96,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.citys__paragraph--two {
+.citys__paragraph-two {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -105,7 +105,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.citys__paragraph--tree {
+.citys__paragraph-tree {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -162,7 +162,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .citys__paragraph--two {
+  .citys__paragraph-two {
     font-family: Inter;
     font-size: 15px;
     font-weight: 200;
@@ -171,7 +171,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .citys__paragraph--tree {
+  .citys__paragraph-tree {
     font-family: Inter;
     font-size: 15px;
     font-weight: 200;
@@ -228,7 +228,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .citys__paragraph--two {
+  .citys__paragraph-two {
     font-family: Inter;
     font-size: 15px;
     font-weight: 200;
@@ -237,7 +237,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-  .citys__paragraph--tree {
+  .citys__paragraph-tree {
     font-family: Inter;
     font-size: 15px;
     font-weight: 200;
