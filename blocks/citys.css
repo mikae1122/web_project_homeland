@@ -229,10 +229,11 @@
   }
   
   .citys__title {
+    margin-top: -20%;
     display: flex;
     flex-direction: column;
-    width: 340px;
-    height: 659px;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .citys__title-paises {
@@ -246,18 +247,18 @@
   }
 
   .citys__image {
-    width: 100%;
-    height: 50%;
+   max-width: 100%;
+    max-height: 50%;
   }
 
   .citys__button {
-    width: 100%;
+    max-width: 100%;
   }
 
   .citys__two-party { 
-    margin-top: 15%;
+    margin-top: -15%;
     margin-left: 5%;
-    width: 352px;
+    max-width: 100%;
     height: 659px;
   }
 
