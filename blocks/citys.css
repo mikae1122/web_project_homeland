@@ -1,6 +1,11 @@
 .citys {
 }
 .citys__gales {
+
+    margin-left: auto;
+    margin-right: auto;
+  
+  
   display: flex;
   margin-left: 10%;
   align-items: center;
